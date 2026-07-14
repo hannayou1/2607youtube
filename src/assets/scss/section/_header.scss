@@ -31,11 +31,11 @@
                 display: block;
 
                 ul{
-                     display: block;
+                    display: block;
                     position: absolute;
                     right: 0;
                     top: 68px;
-                    background-color: rgba(116,99,99,0.1);
+                    background-color: rgb(206, 184, 184);
                     backdrop-filter: blur(15px);
                     z-index: 10000;
                     min-width: 150px;
@@ -80,7 +80,8 @@
                 bottom: 10px;
                 transform: scaleX(0);
                 transition: all 0.3s;
-                }
+            }
+
             &:hover::before {
                 transform: scaleX(1);
             }
