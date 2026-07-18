@@ -1,10 +1,7 @@
 import React from "react";
 import about from "../assets/img/about.jpg";
+import {intorText} from "../constants/Index"
 
-const intorText = {
-  title: "port developer",
-  desc: ["talent is", "found at the end of the", "effort"],
-};
 
 const Intro = () => {
   return (
