@@ -14,7 +14,7 @@ const Header = () => {
       <div className="header__inner">
         <div className="header__logo">
           <h1>
-            <a href="#">
+            <a href="#intro">
               portfolio<em>react.js</em>
             </a>
           </h1>
