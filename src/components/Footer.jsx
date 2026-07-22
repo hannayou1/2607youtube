@@ -8,18 +8,18 @@ const Footer = () => {
     <footer id="footer" role="contentinfo">
         <div className="footer__inner">
             <h2 className="footer__text">
-                <div>webstoryboy</div>
-                <div>@webs</div>
+                <div>Hanna You</div>
+                <div>@vibe coder</div>
             </h2>
             <div className="footer__info">
                 <div className="left">
                     <div className="title">
-                        <a href="/" rel="noopenner noreferrer">sign up</a>
+                        <a href="mailto:pooh9868@naver.com" rel="noopenner noreferrer">contact</a>
                     </div>
-                    <p className="desc">회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+                    <p className="desc">AI 활용 개발 기반 웹·앱 제작, 프로젝트 협업·채용 문의를 환영합니다.</p>
                 </div>
                 <div className="right">
-                    <h3>social</h3>
+                    <h3>works</h3>
                     <ul>
 						{footerText.map((footer, key)=>(
 							<li key={key}>

@@ -1,6 +1,7 @@
 import React from "react";
-import about from "../assets/img/about.jpg";
 import {intorText} from "../constants/Index"
+
+const about = "/images/img01.png";
 
 
 const Intro = () => {
@@ -24,7 +25,7 @@ const Intro = () => {
             <div>{intorText.desc[2]}</div>
           </div>
           <div className="img">
-            <img src={about} alt="어바웃" />
+            <img src={about} alt="유한나 프로필" />
           </div>
         </div>
         <div className="intro__lines bottom" aria-hidden="true">

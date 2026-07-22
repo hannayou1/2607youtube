@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header__logo">
           <h1>
             <a href="#intro">
-              portfolio<em>react.js</em>
+              hanna<em>vibe coder</em>
             </a>
           </h1>
         </div>

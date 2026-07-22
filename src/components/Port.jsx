@@ -39,7 +39,7 @@ const Port = () => {
     	<section id="port" ref={horizontalRef}>
             <div className="port__inner">
                 <h2 className="port__title">
-                    portfolio <em>포폴 작업물</em>
+                    portfolio <em>대표 프로젝트</em>
                 </h2>
                 <div className="port__wrap">
 					{portText.map((port, key) => (
